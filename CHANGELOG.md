@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/gauravkhurana97/Semantic-Release/compare/v1.1.0...v1.2.0) (2022-04-12)
+
+
+### Features
+
+* **sr:** Build App ([39f2386](https://github.com/gauravkhurana97/Semantic-Release/commit/39f238644a1ebd69d11f3c2d43b37b9f01a16416))
+* **sr:** Build Suppourt ([44c05c0](https://github.com/gauravkhurana97/Semantic-Release/commit/44c05c0caf8f10a5b0d92e6af2e0617c63dd5734))
+
 # [1.1.0](https://github.com/gauravkhurana97/Semantic-Release/compare/v1.0.0...v1.1.0) (2022-04-12)
 
 
