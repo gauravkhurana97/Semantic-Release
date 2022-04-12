@@ -1,7 +1,7 @@
 {
   "name": "ts-demo",
-  "version": "1.1.0",
-  "private": false,
+  "version": "1.2.0",
+  "private": true,
   "dependencies": {
     "@apollo/client": "^3.5.10",
     "@apollo/react-hooks": "^4.0.0",
