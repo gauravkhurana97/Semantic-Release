@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/gauravkhurana97/Semantic-Release/compare/v1.0.0...v1.1.0) (2022-04-12)
+
+
+### Features
+
+* **sr:** Semantic Release3 ([3e07703](https://github.com/gauravkhurana97/Semantic-Release/commit/3e07703854c46a0b945ed738995317fbd31cb500))
+
 # 1.0.0 (2022-04-12)
 
 
