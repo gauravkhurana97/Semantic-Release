@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
-import DefaultExample from "./Message";
 const App = () => {
   return (
     <div>
-      <DefaultExample />
+      <h1>Hello World</h1>
     </div>
   );
 };
