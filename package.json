@@ -1,7 +1,7 @@
 {
   "name": "ts-demo",
   "version": "1.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@apollo/client": "^3.5.10",
     "@apollo/react-hooks": "^4.0.0",
@@ -22,6 +22,11 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^1.1.2"
   },
+  "files": [
+    "build",
+    "package.json"
+  ],
+  "publishConfig":{"registry":"https://khurana.jfrog.io/artifactory/api/npm/default-npm-local/"},
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0"

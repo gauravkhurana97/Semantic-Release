@@ -9,10 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Publish dependencies
+        run: |
+          touch .npmrc
+          echo "registry=https://khurana.jfrog.io/artifactory/api/npm/default-npm-virtual/" >> .npmrc
+          curl -u gauravkhurana154@gmail.com:AKCp8krVGEPEj1WqwDdn84sGyLgvAbBJV86pZUDtEHkHPvX6tdkANWNLJV7LKZtMQfH5TEjbD https://khurana.jfrog.io/artifactory/api/npm/auth/ >> .npmrc
       - name: Install dependencies
         run: npm install 
       - run: npm run build 
       - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Push Artifact
         run: npx semantic-release
