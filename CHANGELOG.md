@@ -1,3 +1,13 @@
+# [1.3.0](https://github.com/gauravkhurana97/Semantic-Release/compare/v1.2.0...v1.3.0) (2022-04-12)
+
+
+### Features
+
+* **sr:** Build Suppourt ([6c53645](https://github.com/gauravkhurana97/Semantic-Release/commit/6c5364504a1085eda2ddbddcd60197e52a22f843))
+* **sr:** Build Suppourt2 ([ec67903](https://github.com/gauravkhurana97/Semantic-Release/commit/ec67903c654551d1481086482226fe5596a61773))
+* **sr:** Build Suppourt3 ([6a6a580](https://github.com/gauravkhurana97/Semantic-Release/commit/6a6a580b1223e6fc036769651c7cc61e41a70cf8))
+* **sr:** Build Suppourt4 ([d0761e4](https://github.com/gauravkhurana97/Semantic-Release/commit/d0761e4702ed91e72f590b5320aef502a9c20f8d))
+
 # [1.2.0](https://github.com/gauravkhurana97/Semantic-Release/compare/v1.1.0...v1.2.0) (2022-04-12)
 
 
