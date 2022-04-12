@@ -16,7 +16,7 @@ export function Dog({ name }) {
   const { loading, error, data } = useQuery(GET_DOG_QUERY, {
     variables: { name },
   });
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loading AGain...</p>;
   if (error) return <p>Error!</p>;
 
   return (
