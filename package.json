@@ -3,13 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@apollo/react-hooks": "^4.0.0",
+    "@fluentui/react": "^8.62.3",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "apollo-boost": "^0.4.9",
+    "dompurify": "^2.3.6",
+    "draft-convert": "^2.1.12",
+    "draft-js": "^0.11.7",
+    "graphql": "^15.8.0",
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-draft-wysiwyg": "^1.14.7",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.5",
     "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,6 +36,21 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "release": {
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "package-lock.json",
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
     ]
   },
   "browserslist": {
